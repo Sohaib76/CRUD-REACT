@@ -1,0 +1,5 @@
+npm install express body-parser cors mongoose --save
+npm install nodemon --save-dev
+choco install mongodb.install 
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+npm install axios --save
